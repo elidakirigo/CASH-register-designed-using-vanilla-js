@@ -1,0 +1,177 @@
+body {
+    margin: 0 auto;
+    padding: 0 auto;
+    background: #413a3a;
+}
+
+.wrapper {
+    margin: 0 auto;
+    padding: 0 auto;
+    padding-top: 20px;
+    width: 1040px;
+    background: #046b85;
+    box-shadow: 0px 3px 7px;
+    height: 120vh;
+}
+
+hr {
+    background-color: #01161b;
+    height: 3px;
+    width: 300px;
+    box-shadow: 2px 2px 3px #ffffff;
+    margin: 0 auto;
+}
+
+.title {
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    text-shadow: 2px 4px 3px #01161b;
+}
+
+.title small {
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: -53px;
+    font-size: 18px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 0;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #eeeeee;
+    text-shadow: 2px 4px 3px #01161b;
+}
+
+.one {
+    margin-left: 40px;
+    width: 50%;
+
+}
+
+.one h1 {
+    color: #fff;
+    font-size: 25px;
+    /* font-style: italic; */
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    letter-spacing: 3px;
+    margin-left: 50px;
+    text-decoration: underline;
+}
+
+.one h2 {
+    color: #ffffff;
+    font-size: 18px;
+    /* font-style: italic; */
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    text-align: left;
+    margin-left: 50px;
+}
+
+select {
+    background-color: #c3005b;
+    letter-spacing: 2px;
+    padding: 7px;
+    font-size: 20px;
+    border: none;
+    color: #fff;
+    width: 62%;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: inset 2px 2px 3px #0c023b, inset -2px -2px 3px #0c023b;
+}
+#cash {
+    text-decoration: underline;
+    background: transparent;
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding: 10px 0;
+    border-radius: 4px;
+    box-shadow: inset 2px 2px 3px #0c023b, inset -2px -2px 3px #0c023b;
+}
+.buy {
+    background: transparent;
+    padding: 15px;
+    font-size: 16px;
+    color: #fff;
+    width: 30%;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 12px;
+}
+
+.buy:hover {
+    background: #cccccc;
+    text-decoration: underline;
+}
+
+.selection {
+    padding: 5px 12px;
+    background-color: #c3005b;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    box-shadow: inset 2px 2px 3px #0c023b, inset -2px -2px 3px #0c023b;
+    width: 70%;
+
+}
+
+p {
+    color: #fff;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p small {
+    text-align: right;
+    float: right;
+    padding: 2px 10px;
+    border-radius: 45px;
+    font-family: cursive;
+    cursor: pointer;
+    background: linear-gradient(#5e5586, #0c023b);
+}
+
+.cost,
+.change,
+.vat {
+    color: white;
+    font-size: 17px;
+    margin: 5px 0;
+    background: #01161b;
+    box-shadow: 2px 1px 2px #bebebe;
+    width: 70%;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.two {
+    float: right;
+    width: 30%;
+    
+    position: absolute;
+    top: 190px;
+    left: 800px;
+}
+
+.two .checklist {
+    text-align: center;
+    color: white;
+    font-size: 22px;
+}
+.two .checklist h2 {
+    font-size: 18px;
+
+}
+.two .checklist p {
+    font-size: 16px;
+    color: #2b055e;
+    text-align: left;
+}

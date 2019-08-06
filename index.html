@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>cash register</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1 class="title"> new o'deals <br>
+            <hr>
+            <small>simplifying enoumous sums</small>
+        </h1>
+        <section class="one">
+            <h1>available products</h1>
+            <select name="products" id="product">
+                <option value="eggs">eggs at $5 a tray</option>
+                <option value="meat">meat at $10 a kilo</option>
+                <option value="juice">juice at $230 25litres</option>
+                <option value="mlk">milk at $8.99 a bottle</option>
+                <option value="bacon">bacon at $1.56 each</option>
+                <option value="eggs">chocolates at $2.88 a pack</option>
+                <option value="eggs">magazine at $10 a copy</option>
+            </select>
+            <div class="select">
+                <h2>you have selected the following products</h2>
+                <div class="selection">
+                    <p>
+                        eggs at $5 a tray <small>X</small>
+                    </p>
+                    <p>
+                        juice <small>X</small>
+                    </p>
+                </div>
+                <input type="text" id="cash" placeholder="enter cash amount">
+                <button class="buy">proceed to buy</button>
+                
+            </div>
+        </section>
+        <section class="two">
+            <div class="checklist">
+                <div class="employee">
+                    <h2>which type of employee are you?</h2>
+                    regular<input type="radio" name="employee" id="employee"><br>
+                    departmental<input type="radio" name="employee" id="employee"><br>
+                    shifts<input type="radio" name="employee" id="employee"><br>
+                    premium customer<input type="radio" name="employee" id="employee"><br>
+                    <p>hint : regular - 30.87% off all year in 2020 financial year <br>
+                     : departmental - 50.89% off at once in 2020 financial year <br>
+                     : shifts - 10.5% off all year in 2020 financial year <br>
+                     : premium customer - 15.78% off twice all year in 2020 financial year <br>
+                    </p>
+                    
+                </div>
+            </div>
+            <div class="vat">
+                total VAT charged 
+            </div>
+            <div class="cost">
+                total cost 
+            </div>
+            <div class="change">
+                change recieved 
+            </div>
+            <div class="cost">
+                total cost after premium deductions
+            </div>
+        </section>
+    </div>
+
+    <script src="main.js"></script>
+    <script type="text/javascript">
+        window.onload = (function () { 
+            document.querySelector('#cash').focus()
+         })()
+    </script>
+</body>
+
+</html>
